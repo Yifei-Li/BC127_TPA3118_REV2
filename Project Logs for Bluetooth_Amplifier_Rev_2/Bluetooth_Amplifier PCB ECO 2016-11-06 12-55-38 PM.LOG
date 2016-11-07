@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=VSUPPLY Pin=C10-2
+Removed Pin From Net: NetName=VSUPPLY Pin=C11-2
+Removed Pin From Net: NetName=VSUPPLY Pin=C12-1
+Change Component Footprint: Designator=J4 Old Footprint=70543-0002 New Footprint=JST PH-4
+Change Component Footprint: Designator=S1 Old Footprint=70543-0002 New Footprint=JST PH-4
+Added Pin To Net: NetName=VSUPPLY Pin=C1-1
+Added Pin To Net: NetName=VSUPPLY Pin=C2-2
+Added Pin To Net: NetName=VSUPPLY Pin=C4-1
+Added Pin To Net: NetName=VSUPPLY Pin=C5-1
+Added Pin To Net: NetName=VSUPPLY Pin=C6-2
+Added Pin To Net: NetName=VSUPPLY Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=VSUPPLY Pin=Q1-1
+Added Pin To Net: NetName=VSUPPLY Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=S1-4
+Added Pin To Net: NetName=VSUPPLY Pin=U1-1
+Added Pin To Net: NetName=VSUPPLY Pin=U2-1
+Added Pin To Net: NetName=VSUPPLY Pin=U2-5
+Change Net Name : Old Net Name=VSUPPLY New Net Name=V+
+Added Pin To Net: NetName=VSUPPLY Pin=C10-2
+Added Pin To Net: NetName=VSUPPLY Pin=C11-2
+Added Pin To Net: NetName=VSUPPLY Pin=C12-1
+Added Net: Name=VSUPPLY

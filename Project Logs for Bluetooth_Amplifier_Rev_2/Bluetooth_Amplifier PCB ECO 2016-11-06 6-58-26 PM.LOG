@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=V+ Pin=C10-2
+Added Pin To Net: NetName=V+ Pin=C11-2
+Added Pin To Net: NetName=V+ Pin=C12-1
+Added Room: Name=BC127
+Added Room: Name=Input_Section
+Added Room: Name=Power_Amplifier
+Added Room: Name=Power_Supply

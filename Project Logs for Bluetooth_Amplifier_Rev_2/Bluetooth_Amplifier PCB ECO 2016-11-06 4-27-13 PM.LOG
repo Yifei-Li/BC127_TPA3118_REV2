@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=GND Pin=J1-1
+Removed Pin From Net: NetName=V+ Pin=J1-2
+Removed Pin From Net: NetName=GND Pin=U3-7
+Removed Pin From Net: NetName=GND Pin=U3-8
+Removed Pin From Net: NetName=GND Pin=U3-9
+Removed Pin From Net: NetName=GND Pin=U3-10
+Removed Pin From Net: NetName=VOL_UP Pin=U3-23
+Removed Pin From Net: NetName=VOL_DOWN Pin=U3-24
+Removed Pin From Net: NetName=FORWARD Pin=U3-25
+Removed Pin From Net: NetName=BACK Pin=U3-26
+Removed Pin From Net: NetName=RED_LED Pin=U3-37
+Removed Pin From Net: NetName=BC127_NRST Pin=U3-44
+Removed Pin From Net: NetName=PLAY/PAUSE Pin=U3-50
+Removed Pin From Net: NetName=LINK Pin=U3-51
+Removed Pin From Net: NetName=NetR44_2 Pin=U4-2
+Removed Pin From Net: NetName=NetC32_2 Pin=U4-3
+Removed Pin From Net: NetName=NetC30_2 Pin=U4-5
+Removed Pin From Net: NetName=NetC31_1 Pin=U4-6
+Removed Pin From Net: NetName=NetC31_1 Pin=U4-7
+Removed Pin From Net: NetName=NetR20_2 Pin=U4-8
+Removed Pin From Net: NetName=NetR19_2 Pin=U4-9
+Removed Pin From Net: NetName=NetR18_2 Pin=U4-10
+Removed Pin From Net: NetName=GND Pin=U4-11
+Removed Pin From Net: NetName=NetR11_2 Pin=U4-12
+Removed Pin From Net: NetName=NetR10_2 Pin=U4-13
+Removed Pin From Net: NetName=NetR13_2 Pin=U4-14
+Change Component Footprint: Designator=U3 Old Footprint=BC127 New Footprint=BC127 - No Keepout
+Added Component: Designator=U3(BC127 - No Keepout)
+Added Component: Designator=U4(SOIC127P600X175-14N)
+Added Pin To Net: NetName=V+ Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=GND Pin=U3-10
+Added Pin To Net: NetName=VOL_UP Pin=U3-23
+Added Pin To Net: NetName=VOL_DOWN Pin=U3-24
+Added Pin To Net: NetName=FORWARD Pin=U3-25
+Added Pin To Net: NetName=BACK Pin=U3-26
+Added Pin To Net: NetName=RED_LED Pin=U3-37
+Added Pin To Net: NetName=BC127_NRST Pin=U3-44
+Added Pin To Net: NetName=PLAY/PAUSE Pin=U3-50
+Added Pin To Net: NetName=LINK Pin=U3-51
+Added Pin To Net: NetName=NetC32_2 Pin=U4-2
+Added Pin To Net: NetName=NetR44_2 Pin=U4-3
+Added Pin To Net: NetName=NetC30_2 Pin=U4-5
+Added Pin To Net: NetName=NetR18_2 Pin=U4-5
+Added Pin To Net: NetName=NetC31_1 Pin=U4-6
+Added Pin To Net: NetName=NetR19_2 Pin=U4-6
+Added Pin To Net: NetName=NetC31_1 Pin=U4-7
+Added Pin To Net: NetName=NetR20_2 Pin=U4-7
+Added Pin To Net: NetName=NetR11_2 Pin=U4-12
+Added Pin To Net: NetName=NetR10_2 Pin=U4-13
+Added Pin To Net: NetName=NetR13_2 Pin=U4-14
+Added Pin To Net: NetName=\F\A\U\L\T\ Pin=VR2-4
+Change Net Name : Old Net Name=\F\A\U\L\T\ New Net Name=FAULTZ
+Added Member To Class: ClassName=BC127 Member=Component U3 (U6A) BC127
+Added Member To Class: ClassName=Filter_Section Member=Component U4 OPA4134UA

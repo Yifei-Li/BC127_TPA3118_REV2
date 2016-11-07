@@ -39,7 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Speaker Library.SchLib
+DocumentPath=Circuitry\Speaker Library.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -56,7 +56,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HAXYYYOC
 
 [Document2]
-DocumentPath=Speaker Library.PcbLib
+DocumentPath=Circuitry\Speaker Library.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -73,12 +73,12 @@ GenerateClassCluster=0
 DocumentUniqueId=RGKMHSBY
 
 [Document3]
-DocumentPath=Power_Supply.SchDoc
-AnnotationEnabled=1
+DocumentPath=Circuitry\Power_Supply.SchDoc
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
-AnnotateScope=All
+AnnotateScope=Only Selected Parts
 AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
@@ -90,8 +90,8 @@ GenerateClassCluster=0
 DocumentUniqueId=MYWFNOOR
 
 [Document4]
-DocumentPath=ICs.SchDoc
-AnnotationEnabled=1
+DocumentPath=Circuitry\BC127.SchDoc
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -104,15 +104,15 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=MIFBGIIW
+DocumentUniqueId=LYPOIVCG
 
 [Document5]
-DocumentPath=Input_Section.SchDoc
-AnnotationEnabled=1
+DocumentPath=Circuitry\Input_Section.SchDoc
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
-AnnotateScope=All
+AnnotateScope=Only Selected Parts
 AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
@@ -124,12 +124,12 @@ GenerateClassCluster=0
 DocumentUniqueId=DLLKLBAD
 
 [Document6]
-DocumentPath=Power_Section.SchDoc
+DocumentPath=Circuitry\Power_Amplifier.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
-AnnotateScope=All
+AnnotateScope=Only Selected Parts
 AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
@@ -138,15 +138,15 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QSCOSQXH
+DocumentUniqueId=HHJJBKPW
 
 [Document7]
-DocumentPath=Filter_Section.SchDoc
-AnnotationEnabled=1
+DocumentPath=Circuitry\Filter_Section.SchDoc
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
-AnnotateScope=All
+AnnotateScope=Only Selected Parts
 AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
@@ -158,41 +158,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VQONQPEU
 
 [Document8]
-DocumentPath=Connectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CTIVREHL
-
-[Document9]
-DocumentPath=Amplifier_Board.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=USMBPYWI
-
-[Document10]
-DocumentPath=PCB.OutJob
+DocumentPath=Circuitry\PCB.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,8 +174,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=Circuitry\Outline.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=Circuitry\Bluetooth_Amplifier.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=USMBPYWI
+
 [Document11]
-DocumentPath=Outline.OutJob
+DocumentPath=Bluetooth_Amplifier_Rev_2.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -226,7 +226,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=Drills.OutJob
+DocumentPath=Schematic.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -243,131 +243,15 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Amplifier_Board.DRR
+DocumentPath=Project Outputs for Bluetooth_Amplifier_Rev_2\Bluetooth_Amplifier.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Speaker\NC Drill\Amplifier_Board.DRR
+DocumentPath=Project Outputs for Bluetooth_Amplifier_Rev_2\Bluetooth_Amplifier.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Amplifier_Board.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Speaker\NC Drill\Amplifier_Board.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for Free Documents\Gerber\Amplifier_Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for Speaker\Gerber\Amplifier_Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Amplifier_Board.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for Speaker\NC Drill\Amplifier_Board.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for Speaker\Design Rule Check - Amplifier_Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for Speaker\Power_Supply.BOM
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for Speaker\Power_Supply.CSV
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Speaker Library.csv
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Speaker Library.rep
+DocumentPath=Circuitry\Speaker Library.rep
 DItemRevisionGUID=
 
 [Configuration1]
@@ -693,50 +577,50 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Send To OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=Script
+OutputName1=Script Output
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration1_Name1=ColumnNameFormat
-Configuration1_Item1=CaptionAsName
-Configuration1_Name2=Filter
-Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1383|FormHeight=956|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
-Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up
-Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Digikey Part Number=100|LibRef=100|Quantity=100
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=SimpleBOM
+OutputName2=Simple BOM
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=SimpleBOMView|SimpleBOMMode=0
+OutputType3=SinglePinNetReporter
+OutputName3=Report Single Pin Nets
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Script
-OutputName4=Script Output
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=Filter
+Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name3=General
+Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1383|FormHeight=956|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration4_Name4=GroupOrder
+Configuration4_Item4=Comment=True|Footprint=True
+Configuration4_Name5=SortOrder
+Configuration4_Item5=Designator=Up
+Configuration4_Name6=VisibleOrder
+Configuration4_Item6=Digikey Part Number=100|LibRef=100|Quantity=100
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=Record=SimpleBOMView|SimpleBOMMode=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
@@ -1249,14 +1133,56 @@ L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
 SortOrder=1
-SortLocation=0
+SortLocation=1
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
+MatchParameter3=Value
+MatchStrictly3=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=
+DocumentName0=BC127.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
+UniqueIDPath1=
+DocumentName1=Filter_Section.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=2
+IndexEnabled1=0
+IndexStartValue1=1
+Suffix1=
+UniqueIDPath2=
+DocumentName2=Input_Section.SchDoc
+IsEnabled2=1
+SelectionScope2=All
+Order2=3
+IndexEnabled2=0
+IndexStartValue2=1
+Suffix2=
+UniqueIDPath3=
+DocumentName3=Power_Amplifier.SchDoc
+IsEnabled3=1
+SelectionScope3=All
+Order3=4
+IndexEnabled3=0
+IndexStartValue3=1
+Suffix3=
+UniqueIDPath4=
+DocumentName4=Power_Supply.SchDoc
+IsEnabled4=1
+SelectionScope4=All
+Order4=5
+IndexEnabled4=0
+IndexStartValue4=1
+Suffix4=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1273,388 +1199,310 @@ UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Speaker Library.SchLib
-ComponentDesignItemID0=2POS THRU HOLE 2.54MM
-ComponentSymbolReference0=2POS THRU HOLE 2.54MM
+ComponentDesignItemID0=3.5mm Audio Jack
+ComponentSymbolReference0=3.5mm Audio Jack
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Speaker Library.SchLib
-ComponentDesignItemID1=3.5mm Audio Jack
-ComponentSymbolReference1=3.5mm Audio Jack
+ComponentDesignItemID1=6POS THRU HOLE 2.0MM
+ComponentSymbolReference1=6POS THRU HOLE 2.0MM
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Speaker Library.SchLib
-ComponentDesignItemID2=5POS THRU HOLE 2.54MM
-ComponentSymbolReference2=5POS THRU HOLE 2.54MM
+ComponentDesignItemID2=BC127
+ComponentSymbolReference2=BC127
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Speaker Library.SchLib
-ComponentDesignItemID3=6POS THRU HOLE 2.54MM
-ComponentSymbolReference3=6POS THRU HOLE 2.54MM
+ComponentDesignItemID3=CAP 0.39uF Radial 5mm
+ComponentSymbolReference3=CAP 0.39uF Radial 5mm
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Speaker Library.SchLib
-ComponentDesignItemID4=ATMEGA328P_TQFP
-ComponentSymbolReference4=ATMEGA328P_TQFP
+ComponentDesignItemID4=CAP 0.68uF Radial 5mm
+ComponentSymbolReference4=CAP 0.68uF Radial 5mm
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Speaker Library.SchLib
-ComponentDesignItemID5=BC127
-ComponentSymbolReference5=BC127
+ComponentDesignItemID5=CAP ALUM 1000uF SMD
+ComponentSymbolReference5=CAP ALUM 1000uF SMD
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Speaker Library.SchLib
-ComponentDesignItemID6=CAP 0.22uF Radial 5mm
-ComponentSymbolReference6=CAP 0.22uF Radial 5mm
+ComponentDesignItemID6=CAP ALUM 47uF SMD
+ComponentSymbolReference6=CAP ALUM 47uF SMD
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Speaker Library.SchLib
-ComponentDesignItemID7=CAP 0.39uF Radial 5mm
-ComponentSymbolReference7=CAP 0.39uF Radial 5mm
+ComponentDesignItemID7=CAP CER 0.01uF 0603
+ComponentSymbolReference7=CAP CER 0.01uF 0603
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Speaker Library.SchLib
-ComponentDesignItemID8=CAP 0.68uF Radial 5mm
-ComponentSymbolReference8=CAP 0.68uF Radial 5mm
+ComponentDesignItemID8=CAP CER 0.056uF C0G 1206
+ComponentSymbolReference8=CAP CER 0.056uF C0G 1206
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Speaker Library.SchLib
-ComponentDesignItemID9=CAP 1uF Radial 5mm
-ComponentSymbolReference9=CAP 1uF Radial 5mm
+ComponentDesignItemID9=CAP CER 0.068uF 1206
+ComponentSymbolReference9=CAP CER 0.068uF 1206
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Speaker Library.SchLib
-ComponentDesignItemID10=CAP ALUM 100uF SMD
-ComponentSymbolReference10=CAP ALUM 100uF SMD
+ComponentDesignItemID10=CAP CER 0.1uF 0603
+ComponentSymbolReference10=CAP CER 0.1uF 0603
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Speaker Library.SchLib
-ComponentDesignItemID11=CAP ALUM 470uF SMD
-ComponentSymbolReference11=CAP ALUM 470uF SMD
+ComponentDesignItemID11=CAP CER 0.1uF C0G 1206
+ComponentSymbolReference11=CAP CER 0.1uF C0G 1206
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=Speaker Library.SchLib
-ComponentDesignItemID12=CAP ALUM 47uF SMD
-ComponentSymbolReference12=CAP ALUM 47uF SMD
+ComponentDesignItemID12=CAP CER 0.22uF 0603
+ComponentSymbolReference12=CAP CER 0.22uF 0603
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=Speaker Library.SchLib
-ComponentDesignItemID13=CAP CER 0.01uF 0603
-ComponentSymbolReference13=CAP CER 0.01uF 0603
+ComponentDesignItemID13=CAP CER 1000pF 0603
+ComponentSymbolReference13=CAP CER 1000pF 0603
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=Speaker Library.SchLib
-ComponentDesignItemID14=CAP CER 0.068uF 1206
-ComponentSymbolReference14=CAP CER 0.068uF 1206
+ComponentDesignItemID14=CAP CER 10nF 0603
+ComponentSymbolReference14=CAP CER 10nF 0603
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Speaker Library.SchLib
-ComponentDesignItemID15=CAP CER 0.18uF 0603
-ComponentSymbolReference15=CAP CER 0.18uF 0603
+ComponentDesignItemID15=CAP CER 1uF 0603
+ComponentSymbolReference15=CAP CER 1uF 0603
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Speaker Library.SchLib
-ComponentDesignItemID16=CAP CER 0.1uF 0603
-ComponentSymbolReference16=CAP CER 0.1uF 0603
+ComponentDesignItemID16=CAP CER 2200pF 0603
+ComponentSymbolReference16=CAP CER 2200pF 0603
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=Speaker Library.SchLib
-ComponentDesignItemID17=CAP CER 0.1uF 1206
-ComponentSymbolReference17=CAP CER 0.1uF 1206
+ComponentDesignItemID17=CAP CER 330pF 0603
+ComponentSymbolReference17=CAP CER 330pF 0603
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
 ComponentLibraryIdentifier18=Speaker Library.SchLib
-ComponentDesignItemID18=CAP CER 0.22uF 0603
-ComponentSymbolReference18=CAP CER 0.22uF 0603
+ComponentDesignItemID18=CAP CER 4700pF 0603
+ComponentSymbolReference18=CAP CER 4700pF 0603
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
 ComponentLibraryIdentifier19=Speaker Library.SchLib
-ComponentDesignItemID19=CAP CER 0.47uF 0603
-ComponentSymbolReference19=CAP CER 0.47uF 0603
+ComponentDesignItemID19=CAP CER 47pF 0603
+ComponentSymbolReference19=CAP CER 47pF 0603
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=Speaker Library.SchLib
-ComponentDesignItemID20=CAP CER 1000pF 0603
-ComponentSymbolReference20=CAP CER 1000pF 0603
+ComponentDesignItemID20=CAP FILM 1uF RADIAL 5MM
+ComponentSymbolReference20=CAP FILM 1uF RADIAL 5MM
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=Speaker Library.SchLib
-ComponentDesignItemID21=CAP CER 10nF 0603
-ComponentSymbolReference21=CAP CER 10nF 0603
+ComponentDesignItemID21=CAP FILM 2.2uF RADIAL 7.5MM
+ComponentSymbolReference21=CAP FILM 2.2uF RADIAL 7.5MM
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=Speaker Library.SchLib
-ComponentDesignItemID22=CAP CER 10uF 1206
-ComponentSymbolReference22=CAP CER 10uF 1206
+ComponentDesignItemID22=CAP TANT 10uF 1.8 OHM 10V 1206
+ComponentSymbolReference22=CAP TANT 10uF 1.8 OHM 10V 1206
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
 ComponentLibraryIdentifier23=Speaker Library.SchLib
-ComponentDesignItemID23=CAP CER 1uF 0603
-ComponentSymbolReference23=CAP CER 1uF 0603
+ComponentDesignItemID23=IND 10uH 5A SMD
+ComponentSymbolReference23=IND 10uH 5A SMD
 ComponentUpdate23=1
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
 ComponentLibraryIdentifier24=Speaker Library.SchLib
-ComponentDesignItemID24=CAP CER 2200pF 0603
-ComponentSymbolReference24=CAP CER 2200pF 0603
+ComponentDesignItemID24=JUMPER 3POS THRU HOLE 2.54MM
+ComponentSymbolReference24=JUMPER 3POS THRU HOLE 2.54MM
 ComponentUpdate24=1
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
 ComponentLibraryIdentifier25=Speaker Library.SchLib
-ComponentDesignItemID25=CAP CER 330pF 0603
-ComponentSymbolReference25=CAP CER 330pF 0603
+ComponentDesignItemID25=LED 0603
+ComponentSymbolReference25=LED 0603
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
 ComponentLibraryIdentifier26=Speaker Library.SchLib
-ComponentDesignItemID26=CAP CER 4700pF 0603
-ComponentSymbolReference26=CAP CER 4700pF 0603
+ComponentDesignItemID26=LM2937IMP-3.3/NOPB
+ComponentSymbolReference26=LM2937IMP-3.3/NOPB
 ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=Speaker Library.SchLib
-ComponentDesignItemID27=CAP CER 47pF 0603
-ComponentSymbolReference27=CAP CER 47pF 0603
+ComponentDesignItemID27=MOSFET_N_CH_30V_179A_D2PAK
+ComponentSymbolReference27=MOSFET_N_CH_30V_179A_D2PAK
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=Speaker Library.SchLib
-ComponentDesignItemID28=CSD16321Q5_DQH_8
-ComponentSymbolReference28=CSD16321Q5_DQH_8
+ComponentDesignItemID28=OPA4134UA
+ComponentSymbolReference28=OPA4134UA
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
 ComponentLibraryIdentifier29=Speaker Library.SchLib
-ComponentDesignItemID29=IND 10uH 5A SMD
-ComponentSymbolReference29=IND 10uH 5A SMD
+ComponentDesignItemID29=Potentiometer
+ComponentSymbolReference29=Potentiometer
 ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
 ComponentLibraryIdentifier30=Speaker Library.SchLib
-ComponentDesignItemID30=IND 3.3µH 7A SMD
-ComponentSymbolReference30=IND 3.3µH 7A SMD
+ComponentDesignItemID30=RES 100K 0603
+ComponentSymbolReference30=RES 100K 0603
 ComponentUpdate30=1
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=Speaker Library.SchLib
-ComponentDesignItemID31=LED 0603
-ComponentSymbolReference31=LED 0603
+ComponentDesignItemID31=RES 100R 0603
+ComponentSymbolReference31=RES 100R 0603
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
 ComponentLibraryIdentifier32=Speaker Library.SchLib
-ComponentDesignItemID32=LM2937IMP-3.3/NOPB
-ComponentSymbolReference32=LM2937IMP-3.3/NOPB
+ComponentDesignItemID32=RES 10K 0603
+ComponentSymbolReference32=RES 10K 0603
 ComponentUpdate32=1
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=Speaker Library.SchLib
-ComponentDesignItemID33=LM3481
-ComponentSymbolReference33=LM3481
+ComponentDesignItemID33=RES 10R 0805
+ComponentSymbolReference33=RES 10R 0805
 ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
 ComponentLibraryIdentifier34=Speaker Library.SchLib
-ComponentDesignItemID34=MBRD835LT4G
-ComponentSymbolReference34=MBRD835LT4G
+ComponentDesignItemID34=RES 11K 0603
+ComponentSymbolReference34=RES 11K 0603
 ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
 ComponentLibraryIdentifier35=Speaker Library.SchLib
-ComponentDesignItemID35=OPA4134UA
-ComponentSymbolReference35=OPA4134UA
+ComponentDesignItemID35=RES 13K 0603
+ComponentSymbolReference35=RES 13K 0603
 ComponentUpdate35=1
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
 ComponentLibraryIdentifier36=Speaker Library.SchLib
-ComponentDesignItemID36=Pot
-ComponentSymbolReference36=Pot
+ComponentDesignItemID36=RES 1K 0603
+ComponentSymbolReference36=RES 1K 0603
 ComponentUpdate36=1
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=Speaker Library.SchLib
-ComponentDesignItemID37=RES 0.004R 2512
-ComponentSymbolReference37=RES 0.004R 2512
+ComponentDesignItemID37=RES 20K 0603
+ComponentSymbolReference37=RES 20K 0603
 ComponentUpdate37=1
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
 ComponentLibraryIdentifier38=Speaker Library.SchLib
-ComponentDesignItemID38=RES 1.3K 0603
-ComponentSymbolReference38=RES 1.3K 0603
+ComponentDesignItemID38=RES 26.1K 0603
+ComponentSymbolReference38=RES 26.1K 0603
 ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
 ComponentLibIdentifierKind39=Library Name And Type
 ComponentLibraryIdentifier39=Speaker Library.SchLib
-ComponentDesignItemID39=RES 100K 0603
-ComponentSymbolReference39=RES 100K 0603
+ComponentDesignItemID39=RES 3.32R 0603
+ComponentSymbolReference39=RES 3.32R 0603
 ComponentUpdate39=1
 ComponentIsDeviceSheet39=0
 ComponentLibIdentifierKind40=Library Name And Type
 ComponentLibraryIdentifier40=Speaker Library.SchLib
-ComponentDesignItemID40=RES 100R 0603
-ComponentSymbolReference40=RES 100R 0603
+ComponentDesignItemID40=RES 35K 0603
+ComponentSymbolReference40=RES 35K 0603
 ComponentUpdate40=1
 ComponentIsDeviceSheet40=0
 ComponentLibIdentifierKind41=Library Name And Type
 ComponentLibraryIdentifier41=Speaker Library.SchLib
-ComponentDesignItemID41=RES 10K 0603
-ComponentSymbolReference41=RES 10K 0603
+ComponentDesignItemID41=RES 4.02K 0603
+ComponentSymbolReference41=RES 4.02K 0603
 ComponentUpdate41=1
 ComponentIsDeviceSheet41=0
 ComponentLibIdentifierKind42=Library Name And Type
 ComponentLibraryIdentifier42=Speaker Library.SchLib
-ComponentDesignItemID42=RES 10R 0805
-ComponentSymbolReference42=RES 10R 0805
+ComponentDesignItemID42=RES 4.7K 0603
+ComponentSymbolReference42=RES 4.7K 0603
 ComponentUpdate42=1
 ComponentIsDeviceSheet42=0
 ComponentLibIdentifierKind43=Library Name And Type
 ComponentLibraryIdentifier43=Speaker Library.SchLib
-ComponentDesignItemID43=RES 13K 0603
-ComponentSymbolReference43=RES 13K 0603
+ComponentDesignItemID43=RES 470R 0603
+ComponentSymbolReference43=RES 470R 0603
 ComponentUpdate43=1
 ComponentIsDeviceSheet43=0
 ComponentLibIdentifierKind44=Library Name And Type
 ComponentLibraryIdentifier44=Speaker Library.SchLib
-ComponentDesignItemID44=RES 15K 0603
-ComponentSymbolReference44=RES 15K 0603
+ComponentDesignItemID44=RES 56.2K 0603
+ComponentSymbolReference44=RES 56.2K 0603
 ComponentUpdate44=1
 ComponentIsDeviceSheet44=0
 ComponentLibIdentifierKind45=Library Name And Type
 ComponentLibraryIdentifier45=Speaker Library.SchLib
-ComponentDesignItemID45=RES 1K 0603
-ComponentSymbolReference45=RES 1K 0603
+ComponentDesignItemID45=RES 8.06K 0603
+ComponentSymbolReference45=RES 8.06K 0603
 ComponentUpdate45=1
 ComponentIsDeviceSheet45=0
 ComponentLibIdentifierKind46=Library Name And Type
 ComponentLibraryIdentifier46=Speaker Library.SchLib
-ComponentDesignItemID46=RES 1M 0603
-ComponentSymbolReference46=RES 1M 0603
+ComponentDesignItemID46=SPDT Switch
+ComponentSymbolReference46=SPDT Switch
 ComponentUpdate46=1
 ComponentIsDeviceSheet46=0
 ComponentLibIdentifierKind47=Library Name And Type
 ComponentLibraryIdentifier47=Speaker Library.SchLib
-ComponentDesignItemID47=RES 20K 0603
-ComponentSymbolReference47=RES 20K 0603
+ComponentDesignItemID47=TERMINAL BLOCK 2POS
+ComponentSymbolReference47=TERMINAL BLOCK 2POS
 ComponentUpdate47=1
 ComponentIsDeviceSheet47=0
 ComponentLibIdentifierKind48=Library Name And Type
 ComponentLibraryIdentifier48=Speaker Library.SchLib
-ComponentDesignItemID48=RES 3.32R 0603
-ComponentSymbolReference48=RES 3.32R 0603
+ComponentDesignItemID48=TERMINAL BLOCK 4POS
+ComponentSymbolReference48=TERMINAL BLOCK 4POS
 ComponentUpdate48=1
 ComponentIsDeviceSheet48=0
 ComponentLibIdentifierKind49=Library Name And Type
 ComponentLibraryIdentifier49=Speaker Library.SchLib
-ComponentDesignItemID49=RES 30K 0603
-ComponentSymbolReference49=RES 30K 0603
+ComponentDesignItemID49=TPA3116D2
+ComponentSymbolReference49=TPA3116D2
 ComponentUpdate49=1
 ComponentIsDeviceSheet49=0
 ComponentLibIdentifierKind50=Library Name And Type
 ComponentLibraryIdentifier50=Speaker Library.SchLib
-ComponentDesignItemID50=RES 35K 0603
-ComponentSymbolReference50=RES 35K 0603
+ComponentDesignItemID50=TPS73801DCQR
+ComponentSymbolReference50=TPS73801DCQR
 ComponentUpdate50=1
 ComponentIsDeviceSheet50=0
-ComponentLibIdentifierKind51=Library Name And Type
-ComponentLibraryIdentifier51=Speaker Library.SchLib
-ComponentDesignItemID51=RES 4.7K 0603
-ComponentSymbolReference51=RES 4.7K 0603
-ComponentUpdate51=1
-ComponentIsDeviceSheet51=0
-ComponentLibIdentifierKind52=Library Name And Type
-ComponentLibraryIdentifier52=Speaker Library.SchLib
-ComponentDesignItemID52=RES 41.2K 0603
-ComponentSymbolReference52=RES 41.2K 0603
-ComponentUpdate52=1
-ComponentIsDeviceSheet52=0
-ComponentLibIdentifierKind53=Library Name And Type
-ComponentLibraryIdentifier53=Speaker Library.SchLib
-ComponentDesignItemID53=RES 45.3K 0603
-ComponentSymbolReference53=RES 45.3K 0603
-ComponentUpdate53=1
-ComponentIsDeviceSheet53=0
-ComponentLibIdentifierKind54=Library Name And Type
-ComponentLibraryIdentifier54=Speaker Library.SchLib
-ComponentDesignItemID54=RES 470R 0603
-ComponentSymbolReference54=RES 470R 0603
-ComponentUpdate54=1
-ComponentIsDeviceSheet54=0
-ComponentLibIdentifierKind55=Library Name And Type
-ComponentLibraryIdentifier55=Speaker Library.SchLib
-ComponentDesignItemID55=RES 5.6K 0603
-ComponentSymbolReference55=RES 5.6K 0603
-ComponentUpdate55=1
-ComponentIsDeviceSheet55=0
-ComponentLibIdentifierKind56=Library Name And Type
-ComponentLibraryIdentifier56=Speaker Library.SchLib
-ComponentDesignItemID56=RES 64.9K 0603
-ComponentSymbolReference56=RES 64.9K 0603
-ComponentUpdate56=1
-ComponentIsDeviceSheet56=0
-ComponentLibIdentifierKind57=Library Name And Type
-ComponentLibraryIdentifier57=Speaker Library.SchLib
-ComponentDesignItemID57=RES 8.45K 0603
-ComponentSymbolReference57=RES 8.45K 0603
-ComponentUpdate57=1
-ComponentIsDeviceSheet57=0
-ComponentLibIdentifierKind58=Library Name And Type
-ComponentLibraryIdentifier58=Speaker Library.SchLib
-ComponentDesignItemID58=RES 9K 0603
-ComponentSymbolReference58=RES 9K 0603
-ComponentUpdate58=1
-ComponentIsDeviceSheet58=0
-ComponentLibIdentifierKind59=Library Name And Type
-ComponentLibraryIdentifier59=Speaker Library.SchLib
-ComponentDesignItemID59=RESONATOR 8MHZ
-ComponentSymbolReference59=RESONATOR 8MHZ
-ComponentUpdate59=1
-ComponentIsDeviceSheet59=0
-ComponentLibIdentifierKind60=Library Name And Type
-ComponentLibraryIdentifier60=Speaker Library.SchLib
-ComponentDesignItemID60=SPDT Switch
-ComponentSymbolReference60=SPDT Switch
-ComponentUpdate60=1
-ComponentIsDeviceSheet60=0
-ComponentLibIdentifierKind61=Library Name And Type
-ComponentLibraryIdentifier61=Speaker Library.SchLib
-ComponentDesignItemID61=TERMINAL BLOCK 2POS
-ComponentSymbolReference61=TERMINAL BLOCK 2POS
-ComponentUpdate61=1
-ComponentIsDeviceSheet61=0
-ComponentLibIdentifierKind62=Library Name And Type
-ComponentLibraryIdentifier62=Speaker Library.SchLib
-ComponentDesignItemID62=TERMINAL BLOCK 4POS
-ComponentSymbolReference62=TERMINAL BLOCK 4POS
-ComponentUpdate62=1
-ComponentIsDeviceSheet62=0
-ComponentLibIdentifierKind63=Library Name And Type
-ComponentLibraryIdentifier63=Speaker Library.SchLib
-ComponentDesignItemID63=TPA3116D2
-ComponentSymbolReference63=TPA3116D2
-ComponentUpdate63=1
-ComponentIsDeviceSheet63=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1676,69 +1524,59 @@ ParameterName2=Configuration
 ParameterUpdate2=1
 ParameterName3=Current
 ParameterUpdate3=1
-ParameterName4=Datasheet URL
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Description
+ParameterName5=Digikey Part Number
 ParameterUpdate5=1
-ParameterName6=Digikey Part Number
+ParameterName6=ESR
 ParameterUpdate6=1
-ParameterName7=FAMILY_NAME
+ParameterName7=Library Reference
 ParameterUpdate7=1
-ParameterName8=GENERIC_PART_NUMBER
+ParameterName8=Manufacturer
 ParameterUpdate8=1
-ParameterName9=INDUSTRY_STD_PKG_TYPE
+ParameterName9=Manufacturer P/N
 ParameterUpdate9=1
-ParameterName10=Library Reference
+ParameterName10=Manufacturer Part Number
 ParameterUpdate10=1
-ParameterName11=Manufacturer
+ParameterName11=Package
 ParameterUpdate11=1
-ParameterName12=Manufacturer P/N
+ParameterName12=Power
 ParameterUpdate12=1
-ParameterName13=Manufacturer Part Number
+ParameterName13=Rating
 ParameterUpdate13=1
-ParameterName14=Package
+ParameterName14=Rds On (Max)
 ParameterUpdate14=1
-ParameterName15=PACKAGE_DESIGNATOR
+ParameterName15=Temperature
 ParameterUpdate15=1
-ParameterName16=PIN_COUNT
+ParameterName16=Tolerance
 ParameterUpdate16=1
-ParameterName17=Power
+ParameterName17=Type
 ParameterUpdate17=1
-ParameterName18=PROD_ID
+ParameterName18=Value
 ParameterUpdate18=1
-ParameterName19=Rating
+ParameterName19=VDS
 ParameterUpdate19=1
-ParameterName20=RefDes
+ParameterName20=Voltage
 ParameterUpdate20=1
-ParameterName21=Temperature
-ParameterUpdate21=1
-ParameterName22=Tolerance
-ParameterUpdate22=1
-ParameterName23=Type
-ParameterUpdate23=1
-ParameterName24=Value
-ParameterUpdate24=1
-ParameterName25=Voltage
-ParameterUpdate25=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=070543-0001
+ModelName0=3 Position 2.54MM Thru-Hole
 ModelUpdate0=1
 ModelType1=PCBLIB
 ModelName1=70543-0002
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=70543-0004
+ModelName2=BC127
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=90147-1106
+ModelName3=BC127 - No Keepout
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=BC127
+ModelName4=CAP Radial 5mm
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CAP Radial 5mm
+ModelName5=CAP Radial 7.5MM
 ModelUpdate5=1
 ModelType6=PCBLIB
 ModelName6=CAP_EEFK_D
@@ -1750,59 +1588,50 @@ ModelType8=PCBLIB
 ModelName8=CAPC3216X18N
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=DAP0032A
+ModelName9=CAPMP3216X18N
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=DIOM1608X08N
+ModelName10=DAP0032A
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=DQH8
+ModelName11=DIOM1608X08N
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=DSO-G3/C6.4
+ModelName12=DPAK229P991X239-3N
 ModelUpdate12=1
 ModelType13=PCBLIB
 ModelName13=IND_BOURNS_SRN10
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=IND_BOURNS_SRP00 - duplicate
+ModelName14=JST PH-4
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=MURATA CSTCE8M00G52Z-R0
+ModelName15=JST PH-6
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=NICHICON 8x10 CAP
+ModelName16=Nichicon UVZ 5mm
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=ONSEMI DPAK-3
+ModelName17=RESC1608X06N
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=PCAP_8x10-ELEC00
+ModelName18=RESC2012X06N
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=RESC1608X06N
+ModelName19=SOIC127P600X175-14N
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=RESC2012X06N
+ModelName20=SOT127P705X180-6M (DCQ)
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=RESC6533X09N
+ModelName21=SOT230P700X180-4N (DCY)
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=SOIC127P600X175-14N
+ModelName22=TERMINAL BLOCK 5MM 2POS
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=TERMINAL BLOCK 5MM 2POS
+ModelName23=TERMINAL BLOCK 5MM 4POS
 ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=TERMINAL BLOCK 5MM 4POS
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=TQFP32-08
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=VSSOP10
-ModelUpdate26=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

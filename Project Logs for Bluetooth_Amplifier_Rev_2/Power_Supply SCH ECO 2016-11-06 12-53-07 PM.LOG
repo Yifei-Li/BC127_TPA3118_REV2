@@ -1,0 +1,13 @@
+Replace Part C1 CAP CER 1uF 0603 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP CER 1uF 0603 from Speaker Library.SchLib
+Replace Part C2 CAP CER 0.1uF 0603 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP CER 0.1uF 0603 from Speaker Library.SchLib
+Replace Part C3 CAP TANT 10uF 1.8 OHM 10V 1206 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP TANT 10uF 1.8 OHM 10V 1206 from Speaker Library.SchLib
+Replace Part C4 CAP ALUM 1000uF SMD in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP ALUM 1000uF SMD from Speaker Library.SchLib
+Replace Part C5 CAP CER 1uF 0603 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP CER 1uF 0603 from Speaker Library.SchLib
+Replace Part C6 CAP CER 0.01uF 0603 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP CER 0.01uF 0603 from Speaker Library.SchLib
+Replace Part C7 CAP TANT 10uF 1.8 OHM 10V 1206 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with CAP TANT 10uF 1.8 OHM 10V 1206 from Speaker Library.SchLib
+Replace Part J1 TERMINAL BLOCK 2POS in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with TERMINAL BLOCK 2POS from Speaker Library.SchLib
+Replace Part Q1 MOSFET_N_CH_30V_179A_D2PAK in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with MOSFET_N_CH_30V_179A_D2PAK from Speaker Library.SchLib
+Replace Part R1 RES 11K 0603 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with RES 11K 0603 from Speaker Library.SchLib
+Replace Part R2 RES 4.02K 0603 in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with RES 4.02K 0603 from Speaker Library.SchLib
+Replace Part U1 LM2937IMP-3.3/NOPB in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with LM2937IMP-3.3/NOPB from Speaker Library.SchLib
+Replace Part U2 TPS73801DCQR in D:\Bluetooth_Amplifier_Rev_2\Circuitry\Power_Supply.SchDoc with TPS73801DCQR from Speaker Library.SchLib

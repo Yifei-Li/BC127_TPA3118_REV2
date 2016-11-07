@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=R55 Old DesignItemId=RES 10R 0805 New DesignItemId=RES 10R 0603
+Change Component DesignItemId : Designator=R56 Old DesignItemId=RES 10R 0805 New DesignItemId=RES 10R 0603
+Change Component DesignItemId : Designator=R57 Old DesignItemId=RES 10R 0805 New DesignItemId=RES 10R 0603
+Change Component DesignItemId : Designator=R58 Old DesignItemId=RES 10R 0805 New DesignItemId=RES 10R 0603
+Change Component Footprint: Designator=R55 Old Footprint=RESC2012X06N New Footprint=RESC1608X06N
+Change Component Footprint: Designator=R56 Old Footprint=RESC2012X06N New Footprint=RESC1608X06N
+Change Component Footprint: Designator=R57 Old Footprint=RESC2012X06N New Footprint=RESC1608X06N
+Change Component Footprint: Designator=R58 Old Footprint=RESC2012X06N New Footprint=RESC1608X06N
+Added Room: Name=Power_Amplifier

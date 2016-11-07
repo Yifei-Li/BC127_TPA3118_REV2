@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetC28_2 Pin=U5-1
+Removed Pin From Net: NetName=NetC26_2 Pin=U5-2
+Removed Pin From Net: NetName=VREF Pin=U5-3
+Removed Pin From Net: NetName=NetC23_2 Pin=U5-5
+Removed Pin From Net: NetName=NetR30_2 Pin=U5-6
+Removed Pin From Net: NetName=NetR30_2 Pin=U5-7
+Removed Pin From Net: NetName=NetC19_2 Pin=U5-8
+Removed Pin From Net: NetName=NetC19_2 Pin=U5-9
+Removed Pin From Net: NetName=NetC21_2 Pin=U5-10
+Removed Pin From Net: NetName=NetC20_2 Pin=U5-12
+Removed Pin From Net: NetName=NetC18_2 Pin=U5-13
+Removed Pin From Net: NetName=NetC18_2 Pin=U5-14
+Added Pin To Net: NetName=NetC18_2 Pin=U5-1
+Added Pin To Net: NetName=NetC18_2 Pin=U5-2
+Added Pin To Net: NetName=NetC20_2 Pin=U5-3
+Added Pin To Net: NetName=VREF Pin=U5-5
+Added Pin To Net: NetName=NetC26_2 Pin=U5-6
+Added Pin To Net: NetName=NetC28_2 Pin=U5-7
+Added Pin To Net: NetName=NetR30_2 Pin=U5-8
+Added Pin To Net: NetName=NetR30_2 Pin=U5-9
+Added Pin To Net: NetName=NetC23_2 Pin=U5-10
+Added Pin To Net: NetName=NetC21_2 Pin=U5-12
+Added Pin To Net: NetName=NetC19_2 Pin=U5-13
+Added Pin To Net: NetName=NetC19_2 Pin=U5-14
+Added Member To Class: ClassName=Power_Amplifier Member=Component R42 20K
+Added Member To Class: ClassName=Power_Amplifier Member=Component R49 100K
+Added Room: Name=BC127
+Added Room: Name=Filter_Section
+Added Room: Name=Input_Section
+Added Room: Name=Power_Amplifier
+Added Room: Name=Power_Supply

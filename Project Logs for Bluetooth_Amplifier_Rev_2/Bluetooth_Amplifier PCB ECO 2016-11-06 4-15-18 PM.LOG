@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=FAULTZ Pin=VR2-4
+Change Component Footprint: Designator=C33 Old Footprint=CAP RADIAL 7.5MM New Footprint=CAP Radial 7.5MM with 0805 pads
+Change Component Footprint: Designator=C34 Old Footprint=CAP RADIAL 7.5MM New Footprint=CAP Radial 7.5MM with 0805 pads
+Change Component Footprint: Designator=C35 Old Footprint=CAP RADIAL 7.5MM New Footprint=CAP Radial 7.5MM with 0805 pads
+Change Component Footprint: Designator=C36 Old Footprint=CAP RADIAL 7.5MM New Footprint=CAP Radial 7.5MM with 0805 pads
+Change Net Name : Old Net Name=FAULTZ New Net Name=\F\A\U\L\T\
+Added Pin To Net: NetName=FAULTZ Pin=VR2-4
+Added Net: Name=FAULTZ

@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=R42 NewDesignator=R48
+Change Component Designator: OldDesignator=R43 NewDesignator=R42
+Change Component Designator: OldDesignator=R44 NewDesignator=R43
+Change Component Designator: OldDesignator=R45 NewDesignator=R44
+Change Component Designator: OldDesignator=R46 NewDesignator=R45
+Change Component Designator: OldDesignator=R47 NewDesignator=R46
+Change Component Designator: OldDesignator=R48 NewDesignator=R47
+Change Net Name : Old Net Name=NetR42_2 New Net Name=NetR48_2
+Change Net Name : Old Net Name=NetR46_2 New Net Name=NetR45_2
+Added Room: Name=BC127
+Added Room: Name=Filter_Section
+Added Room: Name=Input_Section
+Added Room: Name=Power_Amplifier
+Added Room: Name=Power_Supply

@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=NetR13_2 Pin=U4-1
+Removed Pin From Net: NetName=NetR10_2 Pin=U4-2
+Removed Pin From Net: NetName=NetR11_2 Pin=U4-3
+Removed Pin From Net: NetName=NetR18_2 Pin=U4-5
+Removed Pin From Net: NetName=NetR19_2 Pin=U4-6
+Removed Pin From Net: NetName=NetR20_2 Pin=U4-7
+Removed Pin From Net: NetName=NetC31_1 Pin=U4-8
+Removed Pin From Net: NetName=NetC31_1 Pin=U4-9
+Removed Pin From Net: NetName=NetC30_2 Pin=U4-10
+Removed Pin From Net: NetName=NetR44_2 Pin=U4-12
+Removed Pin From Net: NetName=NetC32_2 Pin=U4-13
+Removed Pin From Net: NetName=NetR44_2 Pin=U4-14
+Change Component Footprint: Designator=U3 Old Footprint=BC127 New Footprint=BC127 - No Keepout
+Added Pin To Net: NetName=NetC31_1 Pin=U4-1
+Added Pin To Net: NetName=NetC31_1 Pin=U4-2
+Added Pin To Net: NetName=NetC30_2 Pin=U4-3
+Added Pin To Net: NetName=NetC32_2 Pin=U4-5
+Added Pin To Net: NetName=NetR44_2 Pin=U4-6
+Added Pin To Net: NetName=NetR44_2 Pin=U4-7
+Added Pin To Net: NetName=NetR20_2 Pin=U4-8
+Added Pin To Net: NetName=NetR19_2 Pin=U4-9
+Added Pin To Net: NetName=NetR18_2 Pin=U4-10
+Added Pin To Net: NetName=NetR11_2 Pin=U4-12
+Added Pin To Net: NetName=NetR10_2 Pin=U4-13
+Added Pin To Net: NetName=NetR13_2 Pin=U4-14
+Added Pin To Net: NetName=\F\A\U\L\T\ Pin=VR2-4
+Change Net Name : Old Net Name=\F\A\U\L\T\ New Net Name=FAULTZ
+Added Member To Class: ClassName=BC127 Member=Component U3 BC127
+Added Member To Class: ClassName=Filter_Section Member=Component U4 OPA4134UA

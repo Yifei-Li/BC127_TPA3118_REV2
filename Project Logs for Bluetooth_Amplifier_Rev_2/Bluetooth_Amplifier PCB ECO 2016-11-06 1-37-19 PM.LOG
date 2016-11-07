@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=C40 Old DesignItemId=CAP CER 0.1uF 0603 New DesignItemId=CAP CER 1uF 0603
+Change Component DesignItemId : Designator=C45 Old DesignItemId=CAP CER 0.1uF 0603 New DesignItemId=CAP CER 1uF 0603
+Change Component Comment : Designator=C40 Old Comment=0.1uF New Comment=1uF
+Change Component Comment : Designator=C45 Old Comment=0.1uF New Comment=1uF
+Added Room: Name=Power_Amplifier

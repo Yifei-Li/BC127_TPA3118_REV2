@@ -1,0 +1,6 @@
+Added Component: Designator=U1(SOT230P700X180-4N (DCY))
+Added Pin To Net: NetName=V+ Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=3V3 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Member To Class: ClassName=Power_Supply Member=Component U1 LM2937IMP-3.3/NOPB
