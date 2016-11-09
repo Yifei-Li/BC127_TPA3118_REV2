@@ -1,0 +1,14 @@
+*************************************************************
+FileName = Bluetooth_Amplifier.GBR
+AutoAperture = True
+*************************************************************
+Generating : Keep-Out Layer
+      File : Bluetooth_Amplifier.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+

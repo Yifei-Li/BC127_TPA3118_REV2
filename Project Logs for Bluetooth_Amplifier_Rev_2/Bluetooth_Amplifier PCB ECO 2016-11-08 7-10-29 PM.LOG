@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=Power_Amplifier Member=R46
+Change Component Designator: OldDesignator=R48 NewDesignator=R50
+Change Component Designator: OldDesignator=R49 NewDesignator=R48
+Change Component Designator: OldDesignator=R50 NewDesignator=R49
+Change Net Name : Old Net Name=NetR48_2 New Net Name=NetR50_2
+Added Member To Class: ClassName=Power_Amplifier Member=Component R50 20K

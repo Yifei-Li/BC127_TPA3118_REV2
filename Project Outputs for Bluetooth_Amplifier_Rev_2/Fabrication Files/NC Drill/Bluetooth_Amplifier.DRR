@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Bluetooth_Amplifier.PcbDoc   2016-11-09  1:55:32 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Bluetooth_Amplifier.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.4mm (16mil)                                             Round             83        PTH        472.41mm (18.60inch)
+T2      0.76mm (30mil)                                            Round             22        PTH        325.70mm (12.82inch)
+T3      0.8mm (31mil)                                             Round             28        PTH        123.74mm (4.87inch)
+T4      0.86mm (34mil)                                            Round             2         PTH        5.00mm (0.20inch)
+T5      1.02mm (40mil)                                            Round             6         PTH        13.16mm (0.52inch)
+T6      1.3mm (51mil)                                             Round             6         PTH        120.71mm (4.75inch)
+T7      3mm (118mil)                                              Round             4         PTH        318.49mm (12.54inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              151
+
+Total Processing Time (hh:mm:ss) : 00:00:00

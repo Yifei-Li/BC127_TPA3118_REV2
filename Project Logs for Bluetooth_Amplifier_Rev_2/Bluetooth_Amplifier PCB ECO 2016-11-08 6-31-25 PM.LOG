@@ -1,0 +1,18 @@
+Removed Member From Class: ClassName=Power_Amplifier Member=R46
+Change Component DesignItemId : Designator=L1 Old DesignItemId=IND 10uH 5A SMD New DesignItemId=IND 15uH 5A SMD
+Change Component DesignItemId : Designator=L2 Old DesignItemId=IND 10uH 5A SMD New DesignItemId=IND 15uH 5A SMD
+Change Component DesignItemId : Designator=L3 Old DesignItemId=IND 10uH 5A SMD New DesignItemId=IND 15uH 5A SMD
+Change Component DesignItemId : Designator=L4 Old DesignItemId=IND 10uH 5A SMD New DesignItemId=IND 15uH 5A SMD
+Change Component Comment : Designator=L1 Old Comment=10uH New Comment=15uH
+Change Component Comment : Designator=L2 Old Comment=10uH New Comment=15uH
+Change Component Comment : Designator=L3 Old Comment=10uH New Comment=15uH
+Change Component Comment : Designator=L4 Old Comment=10uH New Comment=15uH
+Change Component Designator: OldDesignator=R48 NewDesignator=R50
+Change Component Designator: OldDesignator=R49 NewDesignator=R48
+Change Component Designator: OldDesignator=R50 NewDesignator=R49
+Change Component Description : Designator=L1 Old Description= New Description=Bourns SRR1260
+Change Component Description : Designator=L2 Old Description= New Description=Bourns SRR1260
+Change Component Description : Designator=L3 Old Description= New Description=Bourns SRR1260
+Change Component Description : Designator=L4 Old Description= New Description=Bourns SRR1260
+Change Net Name : Old Net Name=NetR48_2 New Net Name=NetR50_2
+Added Member To Class: ClassName=Power_Amplifier Member=Component R50 20K
