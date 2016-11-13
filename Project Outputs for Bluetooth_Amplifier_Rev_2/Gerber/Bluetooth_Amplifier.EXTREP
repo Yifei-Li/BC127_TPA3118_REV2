@@ -1,10 +1,16 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Bluetooth_Amplifier.GBR   2016-11-09  1:58:51 AM
+Gerber File Extension Report For: Bluetooth_Amplifier.GBR   2016-11-09  6:35:17 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GKO                Keep-Out Layer                          
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GTO                Top Overlay                             
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
 ------------------------------------------------------------------------------------------
